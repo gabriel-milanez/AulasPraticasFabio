@@ -7,12 +7,18 @@ public class Aula2 {
         carrinho.add("Mouse");
         carrinho.add("Teclado");
         carrinho.add("Monitor");
-        System.out.println("Primeiro produto: " + carrinho.get(0));
-        System.out.println("Segundo produto: " + carrinho.get(1));
-        System.out.println("Terceiro produto: " + carrinho.get(2));
-        System.out.println("Quarto produto: " + carrinho.get(3));
+        carrinho.add("Caixa de som");
+        carrinho.add("Energético");
+        carrinho.add("Controle");
+        carrinho.add("Mousepad");
+        carrinho.add("Placa de video");
+        carrinho.add("SSD");
+
         System.out.println(carrinho);
+        System.out.println("Este é seu ultimo produto: " + carrinho.get(9));
+        System.out.println("Vocẽ tem essa quantidade de items: " + carrinho.size());
         carrinho.remove("Mouse");
         System.out.println("Depois de remover: " + carrinho);
+        System.out.println("Vocẽ tem essa quantidade de items após remover um produto: " + carrinho.size());
     }
 }
